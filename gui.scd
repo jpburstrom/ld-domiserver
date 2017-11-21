@@ -65,6 +65,7 @@
             var pingButton = Button()
             .states_([["Search Pis"]])
             .action_(inEnvir{
+                ~pis = q.pis = ();
                 ~broadcastAddr.sendMsg("/ping");
             });
             var resetButton = Button()
