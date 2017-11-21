@@ -4,7 +4,11 @@
         ~pis = q.pis;
 
         ~win = nil;
-        ~broadcastAddr = NetAddr(unixCmdGetStdOut("ifconfig | grep broadcast | awk '{print $NF}'").split(Char.nl)[0], 1234);
+        //The first unix cmd is mac only, otherwise use hardcoded ip
+        //FIXME
+        ~broadcastAddr = try {
+            NetAddr(unixCmdGetStdOut("ifconfig | grep broadcast | awk '{print $NF}'").split(Char.nl)[0], 1234);
+            } ?? { NetAddr("192.168.1.255", 1234) };
 
         ~rowCounter = 0;
 
