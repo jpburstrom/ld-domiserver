@@ -60,7 +60,7 @@ class StartStream(threading.Thread):
 	self.clientaddr = clientaddr
 
     def run(self):	
-	raspivid = subprocess.Popen(["gst-launch-1.0", "-v", "tcpclientsrc", "host=" + self.clientaddr[0] + " ", "port=5000", "!", "gdpdepay", "!", "rtph264depay", "!", "ffdec_h264", "!", "autovideosink"])
+	raspivid = subprocess.Popen(["gst-launch-0.10", "-v", "tcpclientsrc", "host=" + self.clientaddr[0] + " ", "port=5000", "!", "gdpdepay", "!", "rtph264depay", "!", "ffdec_h264", "!", "autovideosink"])
 
 	self.running = True
 	while(self.running and raspivid.poll() is None):
