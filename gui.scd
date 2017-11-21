@@ -53,9 +53,15 @@
                         controller.stopVideo(id)
                     }
                 });
+                var restartBut = Button()
+                .states_([["Restart"]])
+                .action_(inEnvir{ |but|
+                    addr.sendMsg("/restart")
+                });
                 ~win.layout.add(StaticText().string_(id), counter, 0);
                 ~win.layout.add(cameraBut, counter, 1);
                 ~win.layout.add(videoBut, counter, 2);
+                ~win.layout.add(restartBut, counter, 3);
             }.inEnvir.defer
 
         };
@@ -65,7 +71,6 @@
             var pingButton = Button()
             .states_([["Search Pis"]])
             .action_(inEnvir{
-                ~pis = q.pis = ();
                 ~broadcastAddr.sendMsg("/ping");
             });
             var resetButton = Button()
@@ -73,6 +78,9 @@
             .action_({
                 q.waltz.reset;
                 q.love.reset;
+                ~pis.do { |addr|
+                    addr.sendMsg("/restart");
+                }
             });
             var startButton = Button()
             .states_([["Play"], ["Stop"]])
