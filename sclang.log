@@ -1,0 +1,184 @@
+compiling class library...
+	Found 714 primitives.
+	Compiling directory '/Users/johannes/src/supercollider/build/Install/SuperCollider/SuperCollider.app/Contents/Resources/SCClassLibrary'
+	Compiling directory '/Library/Application Support/SuperCollider/Extensions'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/Extensions'
+Open ended symbol started on line 200 of file '/Users/johannes/Library/Application Support/SuperCollider/Extensions/SCVim.sc'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/XML'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/crucial-library'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwCommon'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwPrototype'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ZArchive'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/adclib'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/JITLibExtensions'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Influx'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwPatterns'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwTemperament'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwChucklib'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/KMeans'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/KDTree'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwStatusBox'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/MathLib'
+WARNING: Could not open directory: '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Singleton.quark'
+	To resolve this, either create the directory or remove it from your compilation paths.
+
+WARNING: Could not open directory: '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Connection.quark'
+	To resolve this, either create the directory or remove it from your compilation paths.
+
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ScoreClock'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Wavesets'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Feedback'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Vowel'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Dirt-Samples'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/SuperDirt'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/PopUpTreeMenu'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/VectorSpace'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Unit-Lib'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/SafetyNet'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/JACK'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwVoicer'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/AudioMulchClock'
+	Compiling directory '/Users/johannes/projects/timmer-2016/kod/live/classes'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwGUIEnhancements'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwMixerChannel'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Ctk'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Automation'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/mosca'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/bela-remote'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/CuePlayer'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/redSampler'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/splines'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/API'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ListeningClocks'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Utopia'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Steno'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Singleton'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Collapse'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/WindowViewRecall'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/NodeSnapshot'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Require'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/FreeAfter'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Connection'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwMIDI'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwEQ'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwTimeline'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/MultiTouchPad'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Bjorklund'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/BatLib'
+Open ended symbol started on line 35 of file '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/BatLib/LessKeys.sc'
+	Compiling directory '/Users/johannes/Dropbox/projects/2017-under/kod/lib/classes'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/wslib'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/Modality-toolkit'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/TabbedView'
+	Compiling directory '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ContextSnake'
+ERROR: Class extension for nonexistent class 'Document'
+     In file:'../../../../../../../../../Library/Application Support/SuperCollider/downloaded-quarks/ddwGUIEnhancements/Document-scanFor.sc'
+ERROR: Class extension for nonexistent class 'Document'
+     In file:'../../../../../../../../../Library/Application Support/SuperCollider/downloaded-quarks/wslib/wslib-classes/Lang/Workflow/extDocument-closeAllHelp.sc'
+ERROR: Class extension for nonexistent class 'Document'
+     In file:'../../../../../../../../../Library/Application Support/SuperCollider/downloaded-quarks/wslib/wslib-classes/Lang/Workflow/extDocument-openStartup.sc'
+	numentries = 3237697 / 84227320 = 0.038
+	13876 method selectors, 6070 classes
+	method table size 71418072 bytes, big table size 673818560
+	Number of Symbols 33144
+	Byte Code Size 1551863
+	compiled 1480 files in 1.30 seconds
+
+Info: 49 methods are currently overwritten by extensions. To see which, execute:
+MethodOverride.printAll
+
+compile done
+localhost : setting clientID to 0.
+internal : setting clientID to 0.
+WARNING: Called from Meta_MTP:initClass, method Meta_OSCresponder:new is deprecated and will be removed. Use Meta_OSCFunc:new instead.
+The definition of 'Meta_OSCresponder:new' is to be found here: '/Users/johannes/src/supercollider/build/Install/SuperCollider/SuperCollider.app/Contents/Resources/SCClassLibrary/deprecated/3.9/osc/OSCresponder.sc'
+
+
+WARNING: Called from Meta_MultiTouchPad:initClass, method Meta_OSCresponder:new is deprecated and will be removed. Use Meta_OSCFunc:new instead.
+The definition of 'Meta_OSCresponder:new' is to be found here: '/Users/johannes/src/supercollider/build/Install/SuperCollider/SuperCollider.app/Contents/Resources/SCClassLibrary/deprecated/3.9/osc/OSCresponder.sc'
+
+
+Execution warning: Class 'CueWrapNodeProxy' not found
+Execution warning: Class 'CueWrapFunction' not found
+Execution warning: Class 'CueWrapNodeProxy' not found
+Execution warning: Class 'CueWrapInstr' not found
+Execution warning: Class 'CueWrapSoundFile' not found
+Execution warning: Class 'CueWrapSoundFile' not found
+Execution warning: Class 'CueWrapSpawner' not found
+Execution warning: Class 'CueWrapSynthDef' not found
+WARNING: Called from Meta_MixerChannel:initClass, method Meta_Server:set is deprecated and will be removed. Use Meta_Server:all instead.
+The definition of 'Meta_Server:set' is to be found here: '/Users/johannes/src/supercollider/build/Install/SuperCollider/SuperCollider.app/Contents/Resources/SCClassLibrary/deprecated/3.9/deprecated-3.9.sc'
+
+
+Class tree inited in 0.04 seconds
+ERROR: Class not defined.
+  in interpreted text
+  line 6 char 8:
+
+  Document.subclasses !? {
+          
+  	"~/kod/supercollider/startup/cocoa/*.scd".loadPaths
+-----------------------------------
+Ctk init class runs
+JACK quark cannot read Jack server connections, because Jack is not running.
+Loaded 13 chucklib files from /Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/ddwChucklib/Prototypes/.
+WARNING: Extension in '/Users/johannes/Library/Application Support/SuperCollider/Extensions/Conductor/classes/CV/ConnectCVToNodes.sc' overwrites Bus:free in main class library.
+WARNING: Extension in '/Users/johannes/Library/Application Support/SuperCollider/Extensions/Conductor/classes/extNodeProxy.sc' overwrites NodeProxy:set in main class library.
+WARNING: Extension in '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/wslib/wslib-classes/Extensions/Dictionary/extDictionary-++.sc' overwrites Dictionary:++ in main class library.
+WARNING: Extension in '/Users/johannes/Library/Application Support/SuperCollider/downloaded-quarks/wslib/wslib-classes/Lang/Improvements/extUgen-isUGen.sc' overwrites UGen:isUGen in main class library.
+Intentional overwrites must be put in a 'SystemOverwrites' subfolder.
+
+
+*** Welcome to SuperCollider 3.9.0-beta1. *** For help type cmd-d.
+(  )
+env: a Proto
+2017-11-15 00:13:53.259 sclang[28127:2861710] Can't open input server /Library/InputManagers/Inquisitor
+'/quit' sent
+
+booting server 'localhost' on address: 127.0.0.1:57110
+Found 0 LADSPA plugins
+Number of Devices: 4
+   0 : "Built-in Microph"
+   1 : "Built-in Output"
+   2 : "Sammanslagen enhet"
+   3 : "BabyFire"
+
+"Built-in Microph" Input Device
+   Streams: 1
+      0  channels 2
+
+"Built-in Output" Output Device
+   Streams: 1
+      0  channels 2
+
+SC_AudioDriver: sample rate = 48000.000000, driver's block size = 512
+SuperCollider 3 server ready.
+Shared memory server interface initialized
+server 'localhost' disconnected shared memory interface
+Shared memory server interface initialized
+Preparing recording on 'localhost'
+FAILURE IN SERVER /s_new Group 1 not found
+Requested notification messages from server 'localhost'
+localhost: scsynth maxLogins 1 match with my options.
+localhost: keeping clientID 0 as confirmed from scsynth.
+Safety('localhost') added synth 'safeClip'.
+FAILURE IN SERVER /s_new duplicate node ID
+FAILURE IN SERVER /s_new duplicate node ID
+Recording channels [ 2 ] ... 
+path: './recordings/waltz-0-0.wav'
+Recording Stopped: (waltz-0-0.wav)
+FAILURE IN SERVER /n_free Node 1003 not found
+*** ERROR: SynthDef temp__0 not found
+FAILURE IN SERVER /s_new SynthDef not found
+Preparing recording on 'localhost'
+Recording channels [ 2 ] ... 
+path: './recordings/waltz-0-1.wav'
+Recording Stopped: (waltz-0-1.wav)
+env: a Proto
+Adding: raspberrypi
+TODO: start video
+Freeing stuff
+server 'localhost' disconnected shared memory interface
+'/quit' sent
+
+cleaning up OSC
