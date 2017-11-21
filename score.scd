@@ -19,13 +19,15 @@ q.love.extraBacktrackAt = false; //extra track on last loop
 
 //q.feel = "recorder.scd".loadRelative[0];
 
-
+//The score. Total time 12 minutes
 q.score = Routine({
 
+    //Parallel routine with switching cameras
+    //36*20 seconds = 12 minutes
     var cameraChase = {
         fork {
-            6.do { |i|
-                var id = "domi%".format(i+1).asSymbol;
+            36.do { |i|
+                var id = "domi%".format((i%6)+1).asSymbol;
                 q.camera.startCamera(id);
                 20.wait;
                 q.camera.stopCamera(id);
@@ -37,7 +39,10 @@ q.score = Routine({
 
     loop {
 
+        cameraChase.value;
+
         //0-2
+        //Record some waltz
         q.waltz.record; //returns immediately
         120.wait;
 
@@ -48,17 +53,12 @@ q.score = Routine({
 
         //3-5
         q.ui.log("Dance: 2 minutes");
-        cameraChase.value;
         //TODO: play back mangled version
         120.wait;
 
         //5-7
         q.ui.log("Nap: 2 minutes");
-        fork  {
-            q.camera.startVideo;
-            120.wait;
-            q.camera.stopVideo;
-        };
+
         110.wait;
          //Alarm clock
         { Pulse.ar(329.6 * LFPulse.ar(5).range(1, 2) * [1, XLine.ar(1, 2, 10)]) * 0.3 * Env.linen(0, 10, 10, curve:-4).ar(2) }.play(fadeTime:0);
@@ -81,7 +81,7 @@ q.score = Routine({
 
         //10-12
         q.ui.log("Speech");
-        cameraChase.value;
+
     }
 
 
