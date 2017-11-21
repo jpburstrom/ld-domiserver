@@ -6,7 +6,7 @@ cd `dirname $0`
 
 echo "" > sclang.log
 
-/usr/local/bin/jackd -P75 -dalsa -dhw:1 -n3 -p512 &
+jackd -P95 -dalsa -dhw:1 -n3 -p512 &
 pid1=$!
 python server.py &
 pid2=$!
