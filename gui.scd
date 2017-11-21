@@ -39,18 +39,18 @@
                 .states_([["Test Camera"], ["Stop camera test"]])
                 .action_(inEnvir{ |but|
                     if (but.value == 1) {
-                        controller.startCamera
+                        controller.startCamera(id)
                     } {
-                        controller.stopCamera
+                        controller.stopCamera(id)
                     }
                 });
                 var videoBut = Button()
                 .states_([["Test Video"], ["Stop video test"]])
                 .action_(inEnvir{ |but|
                     if (but.value == 1) {
-                        controller.startVideo
+                        controller.startVideo(id)
                     } {
-                        controller.stopVideo
+                        controller.stopVideo(id)
                     }
                 });
                 ~win.layout.add(StaticText().string_(id), counter, 0);
