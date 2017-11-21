@@ -56,7 +56,8 @@
                 var restartBut = Button()
                 .states_([["Restart"]])
                 .action_(inEnvir{ |but|
-                    addr.sendMsg("/restart")
+                    addr.sendMsg("/restart");
+                    { ~broadcastAddr.sendMsg("/ping"); }.inEnvir.defer(2);
                 });
                 ~win.layout.add(StaticText().string_(id), counter, 0);
                 ~win.layout.add(cameraBut, counter, 1);
@@ -80,7 +81,8 @@
                 q.love.reset;
                 ~pis.do { |addr|
                     addr.sendMsg("/restart");
-                }
+                };
+                { ~broadcastAddr.sendMsg("/ping"); }.inEnvir.defer(2);
             });
             var startButton = Button()
             .states_([["Play"], ["Stop"]])
