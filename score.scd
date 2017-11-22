@@ -82,6 +82,8 @@ q.score = Routine({
         //10-12
         q.ui.log("Speech");
 
+        120.wait;
+
     }
 
 
