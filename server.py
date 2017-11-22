@@ -68,9 +68,9 @@ class StartStream(threading.Thread):
 
 	self.running = False
 
-        if raspivid.poll() == True: #or self.running == False:
-	    print "kill"
-	    raspivid.kill()
+        #if raspivid.poll() == True or self.running == False:
+        print "kill"
+        raspivid.kill()
 
     def stopstream(self):
 	self.running = False  
